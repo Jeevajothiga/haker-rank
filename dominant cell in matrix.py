@@ -4,7 +4,7 @@ n rows and
 𝑚
 m columns."""
 def numCells(grid):
-    n = len(grid)
+    n = len(grid) 
     m = len(grid[0])
     
     directions = [(-1, 0), (1, 0), (0, -1), (0, 1), (-1, -1), (-1, 1), (1, -1), (1, 1)]
